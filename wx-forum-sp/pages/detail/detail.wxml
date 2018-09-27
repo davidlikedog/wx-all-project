@@ -1,0 +1,11 @@
+<!--pages/detail/detail.wxml-->
+<view class="body">
+  <view class="title">{{oneArticle.title}}</view>
+  <view class="author">david</view>
+  <view class="time">2018-09-17</view>
+  <view class="picture">
+    <image mode="widthFix" src='../../icon-font/a.jpg'></image>
+  </view>
+  <view class="content">{{oneArticle.content}}</view>
+  <button class="back" bindtap='back'>back</button>
+</view>
