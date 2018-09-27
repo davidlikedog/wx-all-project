@@ -1,0 +1,31 @@
+<div class="aside">
+  <div class="asideIconOutBox">
+    <div class="asideIconBox">
+      <mat-icon class="asideIcon">beach_access</mat-icon>
+      <span class="asideTitle">二哈和胖橘猫</span>
+    </div>
+  </div>
+  <ul class="asideUl">
+
+    <li class="asideLi">
+      <div class="asideLiHead">
+        <mat-icon class="asideLiIcon">send</mat-icon>
+        <span class="asideOneName">二哈 or 橘猫</span>
+      </div>
+      <ul class="asideLiDetail">
+        <li class="asideLiOneDetail" (click)="go($event)">
+          <span class="moreLeft">
+            橘猫
+          </span>
+        </li>
+        <li class="asideLiOneDetail" (click)="go($event)">
+          <span class="moreLeft">
+            <!--<a [routerLink]="['./allArticleAll','all']">所有的文章</a>-->
+            二哈
+          </span>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</div>

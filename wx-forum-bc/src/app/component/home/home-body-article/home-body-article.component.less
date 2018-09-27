@@ -1,0 +1,36 @@
+.all {
+  overflow: hidden;
+}
+
+.one {
+  float: left;
+  width: 48%;
+  &:nth-child(2n) {
+    margin-left: 4%;
+  }
+  &:nth-child(2) {
+    margin-top: 0;
+  }
+  &:nth-child(1) {
+    margin-top: 0;
+  }
+  margin-top: 4%;
+}
+
+.lessContent {
+  //-webkit-box-orient: vertical; // 貌似less编译后就没了lessContent
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  min-height: 54px;
+}
+
+.imgBox {
+  background: paleturquoise;
+  overflow: hidden;
+  box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+}
+
+.imgBox > img {
+  width: 100%;
+}

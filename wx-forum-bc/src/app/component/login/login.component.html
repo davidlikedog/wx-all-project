@@ -1,0 +1,24 @@
+<div class="loginBox">
+  <div class="title">登录</div>
+  <div class="innerBox">
+    <mat-form-field appearance="outline">
+      <mat-label>账号</mat-label>
+      <input #account [(ngModel)]="accountValue" (blur)="verifyAccount(account)" (input)="verifyAccount(account)" matInput type="text" placeholder="请输入账号">
+      <mat-hint style="color: #f44336;">{{accountWrongMsg}}</mat-hint>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>密码</mat-label>
+      <input #password [(ngModel)]="passwordValue" (blur)="verifyPassword(password)" (input)="verifyPassword(password)" matInput type="password" placeholder="请输入密码">
+      <mat-hint style="color: #f44336;">{{passwordWrongMsg}}</mat-hint>
+    </mat-form-field>
+    <div class="foot">
+      <button (click)="check()" mat-stroked-button color="primary">登录</button>
+      <div class="elseMsg">
+        <ng-template [ngIf]="">
+          <mat-spinner color="primary"></mat-spinner>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+

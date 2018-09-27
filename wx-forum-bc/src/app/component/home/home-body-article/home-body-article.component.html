@@ -1,0 +1,25 @@
+<div class="all">
+
+  <div class="one">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="imgBox">
+          <img src="../../../../assets/img/bingzhang.jpg" alt="">
+        </div>
+        <mat-card-title>david</mat-card-title>
+        <mat-card-subtitle>这个人很懒，什么也没留下</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{data.src}}" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p [style.-webkit-box-orient]="'vertical'" class="lessContent">
+          {{data.content}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+</div>

@@ -1,0 +1,126 @@
+:host {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 167px;
+  height: 100%;
+  background: #673ab7;
+  padding-right: 3px;
+}
+
+.asideIconOutBox {
+  padding: 10px;
+}
+
+.asideIconBox {
+  margin: 0 auto;
+  height: 147px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #3a1875;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 100px;
+}
+
+.asideIcon {
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+}
+
+.asideTitle {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.asideUl {
+  margin-top: 20px;
+  border-bottom: 1px solid #7442ce;
+  border-top: 1px solid #5d35a5;
+}
+
+.asideLi {
+  border-top: 1px solid #7442ce;
+  border-bottom: 1px solid #5d35a5;
+  &:hover {
+    cursor: pointer;
+    background: #824de0;
+  }
+}
+
+.asideLiHead {
+  padding: 10px 0 10px 20px;
+}
+
+.liSelected {
+  background: #824de0;
+}
+
+.liSelected > .asideLiHead > .asideLiIcon {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.asideLiIcon {
+  color: #ffffff;
+  font-size: 14px;
+  width: 14px;
+  height: 14px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.asideOneName {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+.asideLiDetailSetLeft {
+  background: pink;
+}
+
+.asideLiDetail {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.asideLiOneDetail {
+  @top: 10px;
+  color: #ffffff;
+  background: #905bef;
+  padding: @top;
+  //padding: 2px 0;
+  //& + & {
+  //  padding-top: @top;
+  //}
+  //&:nth-child(1) {
+  //  padding-top: @top;
+  //}
+  //&:nth-last-child(1) {
+  //  padding-bottom: @top;
+  //}
+  &:hover {
+    background: #9b66f9;
+  }
+}
+
+.moreLeft {
+  margin-left: 20px;
+}
