@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {LoginService} from '../../serve/login.service';
+import {Md5} from 'ts-md5';
 
 @Component({
   selector: 'app-login',
@@ -40,13 +41,20 @@ export class LoginComponent implements OnInit {
     if (this.accountValue !== '' && this.passwordValue !== '' && this.accountValue && this.passwordValue) {
       const data = {
         account: this.accountValue,
-        password: this.passwordValue
+        password: Md5.hashStr(this.passwordValue),
       };
       this.login.login(data).subscribe(result => {
         console.log(result);
+        window.sessionStorage.setItem('Authorization', result.token);
       });
     } else {
       console.log('sth is empty');
     }
+  }
+
+  testJwt() {
+    this.login.test().subscribe(data => {
+      console.log(data);
+    });
   }
 }

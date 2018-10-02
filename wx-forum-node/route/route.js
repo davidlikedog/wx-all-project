@@ -1,6 +1,12 @@
 var router = require('koa-router')();
 var db = require('../db/mysql');
 
+
+const jwt = require('jsonwebtoken');
+
+const jwtSecret = 'jwtSecret';
+const tokenExpiresTime = 1000 * 60 * 60 * 24 * 7;
+
 module.exports = function r() {
     return router.get('/', async ctx => {
         ctx.body = '133333';
@@ -28,12 +34,7 @@ module.exports = function r() {
         console.log(ctx.request.body);
         ctx.body = ctx.request.body;
     }).post('/bc/login', async ctx => {
-        ctx.cookies.set('name', 'david', {
-            maxAge: 60 * 1000 * 60,
-            // path: '/news' // 配置允许访问的路径
-            httpOnly: true // 表示这个cookie只允许http访问，前端js不能访问
-        });
-        ctx.session.userinfo = 'david';
+        console.log(`get data`);
         var getData = ctx.request.body;
         if (getData.account === '' || getData.password === '') {
             ctx.body = {
@@ -45,7 +46,7 @@ module.exports = function r() {
         var sqlDb = db.getInstance();
         var result = null;
         try {
-            result = await sqlDb.query(`select id from bc_user where account=${getData.account} and password=${getData.password}`);
+            result = await sqlDb.query(`select id from bc_user where account='${getData.account}' and password='${getData.password}'`);
         } catch (e) {
             console.log(e);
         }
@@ -57,15 +58,34 @@ module.exports = function r() {
             }
         } else {
 
+            let payload = {
+                // exp: Date.now() + tokenExpiresTime,
+                // exp: Math.floor(Date.now() / 1000) + (60 * 60),
+                name: getData.account
+            };
+
+            let token = jwt.sign({
+                data: payload
+            }, jwtSecret, {expiresIn: '1h'});
+            // let token = jwt.sign(payload, jwtSecret);
+            console.log(token);
+
             ctx.body = {
-                result: result,
-                msg: 'ok',
-                status: 200
-            }
+                user: getData.account,
+                code: 1,
+                token
+            };
         }
-    }).get('/bc/login', async ctx => {
-        console.log('get bc login');
-        ctx.body = 'data';
-    });
+    }).get('/bc/test', async ctx => {
+        var token = ctx.header.authorization;
+        console.log(token);
+        let payload = jwt.verify(token.split(' ')[1], jwtSecret);
+        console.log(payload);
+        ctx.body = {
+            data: payload
+        }
+    }).get('/sp', async ctx => {
+        ctx.body = '123';
+    })
 };
 

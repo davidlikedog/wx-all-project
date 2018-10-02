@@ -21,11 +21,13 @@ class Db {
             host: database.HOST,
             user: database.USER,
             password: database.PASSWORD,
-            database: database.DATABASE
+            database: database.DATABASE,
+            port: database.PORT
         })
     }
 
     query(sql) {
+        console.log(sql);
         return new Promise((resolve, reject) => {
             this.db.getConnection((err, connection) => {
                 if (err) {
@@ -40,8 +42,6 @@ class Db {
                     })
                 }
             })
-        }).catch(err => {
-            console.log(error, 'Promise error');
         })
     }
 }
