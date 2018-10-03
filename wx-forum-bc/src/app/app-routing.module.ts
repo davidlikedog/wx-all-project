@@ -4,6 +4,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './component/home/home.component';
 import {HomeBodyArticleComponent} from './component/home/home-body-article/home-body-article.component';
 import {LoginComponent} from './component/login/login.component';
+import {ErrPageComponent} from './component/err-page/err-page.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/login', pathMatch: 'full'},
@@ -15,6 +16,7 @@ const routes: Routes = [
     ]
   },
   {path: 'login', component: LoginComponent},
+  {path: 'err/:msg', component: ErrPageComponent},
 ];
 
 @NgModule({

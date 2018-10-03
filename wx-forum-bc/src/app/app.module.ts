@@ -12,6 +12,7 @@ import {HomeAsideComponent} from './component/home/home-aside/home-aside.compone
 import {HomeBodyArticleComponent} from './component/home/home-body-article/home-body-article.component';
 import {HomeBreadComponent} from './component/home/home-bread/home-bread.component';
 import { LoginComponent } from './component/login/login.component';
+import { ErrPageComponent } from './component/err-page/err-page.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { LoginComponent } from './component/login/login.component';
     HomeBodyArticleComponent,
     HomeBreadComponent,
     LoginComponent,
+    ErrPageComponent,
   ],
   imports: [
     BrowserModule,

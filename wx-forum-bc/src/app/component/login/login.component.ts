@@ -1,6 +1,10 @@
 import {Component, OnInit} from '@angular/core';
 import {LoginService} from '../../serve/login.service';
 import {Md5} from 'ts-md5';
+import {Router} from '@angular/router';
+import {MatSnackBar} from '@angular/material';
+import {MsgAlertService} from '../../serve/msg-alert.service';
+import {GlobalDataService} from '../../serve/global-data.service';
 
 @Component({
   selector: 'app-login',
@@ -12,13 +16,23 @@ export class LoginComponent implements OnInit {
   passwordWrongMsg: string;
   accountValue: string;
   passwordValue: string;
+  disabled: boolean;
+  i = 0;
 
   constructor(
-    private login: LoginService
+    private loginService: LoginService,
+    private routes: Router,
+    private myAlert: MatSnackBar,
+    private alertService: MsgAlertService,
+    private globalData: GlobalDataService
   ) {
+    this.disabled = false;
   }
 
   ngOnInit() {
+    setInterval(() => {
+      this.globalData.change.emit(this.i++);
+    }, 1000);
   }
 
   verifyAccount(sth) {
@@ -38,23 +52,39 @@ export class LoginComponent implements OnInit {
   }
 
   check() {
-    if (this.accountValue !== '' && this.passwordValue !== '' && this.accountValue && this.passwordValue) {
-      const data = {
-        account: this.accountValue,
-        password: Md5.hashStr(this.passwordValue),
-      };
-      this.login.login(data).subscribe(result => {
-        console.log(result);
-        window.sessionStorage.setItem('Authorization', result.token);
-      });
+    if (this.accountValue !== '' && this.accountValue) {
+      if (this.passwordValue !== '' && this.passwordValue) {
+        const data = {
+          account: this.accountValue,
+          password: Md5.hashStr(this.passwordValue),
+        };
+        this.alertService.waiting('登陆中...');
+        this.disabled = true;
+        this.loginService.login(data).subscribe(result => {
+          this.alertService.hideWaiting();
+          this.disabled = false;
+          if (result.status === 200) {
+            window.sessionStorage.setItem('Authorization', result.token);
+            window.sessionStorage.setItem('User', result.user.toString());
+            this.globalData.setUser(this.accountValue);
+            this.alertService.onceOk('登录成功');
+            this.routes.navigateByUrl('/home');
+          } else {
+            this.alertService.onceErr('账号或密码错误');
+            this.passwordValue = '';
+          }
+        });
+      } else {
+        this.passwordWrongMsg = '密码不能为空';
+      }
     } else {
-      console.log('sth is empty');
+      this.accountWrongMsg = '账号不能为空';
     }
   }
 
-  testJwt() {
-    this.login.test().subscribe(data => {
-      console.log(data);
-    });
+  keyUpLogin(e) {
+    if (e.keyCode === 13) {
+      this.check();
+    }
   }
 }

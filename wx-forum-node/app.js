@@ -20,7 +20,10 @@ app.use(function (ctx, next) {
     return next().catch((err) => {
         if (401 === err.status) {
             ctx.status = 401;
-            ctx.body = 'Protected resource, use Authorization header to get access\n';
+            ctx.body = {
+                status: 401,
+                msg: '请登录'
+            };
         } else {
             throw err;
         }
@@ -41,4 +44,6 @@ app.use(router.routes()).use(router.allowedMethods());
 //     path: [/.*?\/sp.*?/, /^\/bc\/login/]
 // }));
 
-app.listen(8081);
+app.listen(8081, () => {
+    console.log('listening localhost:8081')
+});

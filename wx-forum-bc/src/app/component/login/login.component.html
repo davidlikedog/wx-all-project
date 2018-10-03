@@ -8,17 +8,11 @@
     </mat-form-field>
     <mat-form-field appearance="outline">
       <mat-label>密码</mat-label>
-      <input #password [(ngModel)]="passwordValue" (blur)="verifyPassword(password)" (input)="verifyPassword(password)" matInput type="password" placeholder="请输入密码">
+      <input #password [(ngModel)]="passwordValue" (keyup)="keyUpLogin($event)" (blur)="verifyPassword(password)" (input)="verifyPassword(password)" matInput type="password" placeholder="请输入密码">
       <mat-hint style="color: #f44336;">{{passwordWrongMsg}}</mat-hint>
     </mat-form-field>
     <div class="foot">
-      <button (click)="check()" mat-stroked-button color="primary">登录</button>
-      <div class="elseMsg">
-        <ng-template [ngIf]="">
-          <mat-spinner color="primary"></mat-spinner>
-        </ng-template>
-      </div>
+      <button (click)="check()" [disabled]="disabled" mat-stroked-button color="primary">登录</button>
     </div>
   </div>
 </div>
-<button (click)="testJwt()" mat-button>test jwt</button>

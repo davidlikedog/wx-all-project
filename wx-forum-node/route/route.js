@@ -72,7 +72,7 @@ module.exports = function r() {
 
             ctx.body = {
                 user: getData.account,
-                code: 1,
+                status: 200,
                 token
             };
         }

@@ -5,9 +5,10 @@ import {GlobalData} from '../globalData/globalData';
 import {catchError} from 'rxjs/operators';
 
 interface User {
-  account: number;
+  user: number;
   password: string;
   token?: string;
+  status?: number;
 }
 
 @Injectable({
