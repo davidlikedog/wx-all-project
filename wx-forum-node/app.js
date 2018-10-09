@@ -16,7 +16,6 @@ app.use(cors({
 }));
 
 app.use(function (ctx, next) {
-    console.log(ctx.header.authorization);
     return next().catch((err) => {
         if (401 === err.status) {
             ctx.status = 401;

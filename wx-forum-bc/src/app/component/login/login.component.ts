@@ -58,7 +58,7 @@ export class LoginComponent implements OnInit {
           account: this.accountValue,
           password: Md5.hashStr(this.passwordValue),
         };
-        this.alertService.waiting('登陆中...');
+        this.alertService.waiting('登录中...');
         this.disabled = true;
         this.loginService.login(data).subscribe(result => {
           this.alertService.hideWaiting();

@@ -1,6 +1,7 @@
 import {Component, OnInit, ElementRef, Renderer2} from '@angular/core';
 import {Router} from '@angular/router';
 import {Page} from '../homeGlobolData';
+import {HomeService} from '../../../serve/home.service';
 
 @Component({
   selector: 'app-home-aside',
@@ -12,7 +13,8 @@ export class HomeAsideComponent implements OnInit {
   constructor(
     private el: ElementRef,
     private render: Renderer2,
-    private router: Router
+    private router: Router,
+    private homeService: HomeService
   ) {
   }
 
@@ -41,12 +43,18 @@ export class HomeAsideComponent implements OnInit {
     }
   }
 
-  go(event) {
-    const text: string = event.target.innerHTML;
-    if (text.indexOf('二哈') === -1) {
-      this.router.navigateByUrl('/home/allArticleAll/all');
-    } else {
-      this.router.navigateByUrl('/home/allArticle/today');
+  go(type) {
+    console.log(type);
+    if (type === 'all') {
+      this.homeService.getAll();
+    }else if (type === 'mine') {
+      this.homeService.getMine();
     }
+    // const text: string = event.target.innerHTML;
+    // if (text.indexOf('二哈') === -1) {
+    //   this.router.navigateByUrl('/home/allArticleAll/all');
+    // } else {
+    //   this.router.navigateByUrl('/home/allArticle/today');
+    // }
   }
 }

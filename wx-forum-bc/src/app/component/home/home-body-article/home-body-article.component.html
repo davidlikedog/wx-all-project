@@ -1,6 +1,6 @@
 <div class="all">
 
-  <div class="one">
+  <div class="one" *ngFor="let n of data">
     <mat-card class="example-card">
       <mat-card-header>
         <div mat-card-avatar class="imgBox">
@@ -9,10 +9,10 @@
         <mat-card-title>david</mat-card-title>
         <mat-card-subtitle>这个人很懒，什么也没留下</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="{{data.src}}" alt="Photo of a Shiba Inu">
+      <img mat-card-image src="{{n.cover}}" alt="Photo of a Shiba Inu">
       <mat-card-content>
         <p [style.-webkit-box-orient]="'vertical'" class="lessContent">
-          {{data.content}}
+          {{n.content}}
         </p>
       </mat-card-content>
       <mat-card-actions>

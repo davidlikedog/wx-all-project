@@ -2,7 +2,7 @@
   <div class="asideIconOutBox">
     <div class="asideIconBox">
       <mat-icon class="asideIcon">beach_access</mat-icon>
-      <span class="asideTitle">二哈和胖橘猫</span>
+      <span class="asideTitle">雨城笔记后台</span>
     </div>
   </div>
   <ul class="asideUl">
@@ -10,18 +10,18 @@
     <li class="asideLi">
       <div class="asideLiHead">
         <mat-icon class="asideLiIcon">send</mat-icon>
-        <span class="asideOneName">二哈 or 橘猫</span>
+        <span class="asideOneName">所有 or 我的</span>
       </div>
       <ul class="asideLiDetail">
-        <li class="asideLiOneDetail" (click)="go($event)">
+        <li class="asideLiOneDetail" (click)="go('all')">
           <span class="moreLeft">
-            橘猫
+            所有
           </span>
         </li>
-        <li class="asideLiOneDetail" (click)="go($event)">
+        <li class="asideLiOneDetail" (click)="go('mine')">
           <span class="moreLeft">
             <!--<a [routerLink]="['./allArticleAll','all']">所有的文章</a>-->
-            二哈
+            我的
           </span>
         </li>
       </ul>
