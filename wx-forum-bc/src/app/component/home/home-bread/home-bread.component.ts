@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {HomeService} from '../../../serve/home.service';
+import {HomeService} from '../../../serve/home-service/home.service';
 
 @Component({
   selector: 'app-home-bread',

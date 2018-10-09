@@ -5,12 +5,17 @@
       <change beforePath="$PROJECT_DIR$/../wx-forum-bc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-aside/home-aside.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-aside/home-aside.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-body-article/home-body-article.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-body-article/home-body-article.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-bread/home-bread.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-bread/home-bread.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-bread/home-bread.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home-bread/home-bread.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/homeGlobolData.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/home.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/global-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/global-data.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/home.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/home-service/home.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/home-service/home.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/login.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/login-service/login.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/login-service/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/msg-alert.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/material-alert-service/msg-alert.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/msg-alert.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/serve/material-alert-service/msg-alert.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -291,7 +296,7 @@
     <option name="totallyTimeSpent" value="66876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17708333" />

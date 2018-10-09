@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {HomeService} from '../../serve/home.service';
+import {HomeService} from '../../serve/home-service/home.service';
 import {Router} from '@angular/router';
-import {GlobalDataService} from '../../serve/global-data.service';
+import {GlobalDataService} from '../../serve/global-data-service/global-data.service';
 
 @Component({
   selector: 'app-home',
@@ -19,9 +19,6 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.globalData.change.subscribe((value: number) => {
-      this.i = value;
-    });
     const isLogin: string = window.sessionStorage.getItem('Authorization');
     const user: string = window.sessionStorage.getItem('User');
     const whoLogin: string = this.globalData.getUser();

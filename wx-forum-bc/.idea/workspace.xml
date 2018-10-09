@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8ea73270-57f2-4ea2-9ce1-0edefde3bdbc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/component/home/homeGlobolData.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/serve/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/home.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/serve/home.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/home-service/home.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/serve/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/home-service/home.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/serve/login.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/login-service/login.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/serve/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/login-service/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/serve/msg-alert.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/material-alert-service/msg-alert.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/serve/msg-alert.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/material-alert-service/msg-alert.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-forum-node/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-node/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-forum-node/db/mysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-node/db/mysql.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -133,55 +137,55 @@
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
           <entry key="Angular2LanguageService" value="1" />
+          <entry key="TsLintLanguageService" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="90" />
-          <entry key="ts" value="1441" />
+          <entry key="ts" value="1442" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="90" />
-          <entry key="TypeScript" value="1441" />
+          <entry key="TypeScript" value="1442" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="6" />
           <entry key="jpg" value="1" />
-          <entry key="ts" value="13" />
+          <entry key="json" value="1" />
+          <entry key="ts" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="6" />
           <entry key="Image" value="1" />
-          <entry key="TypeScript" value="13" />
+          <entry key="JSON" value="1" />
+          <entry key="TypeScript" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/serve/home.service.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/serve/global-data.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/component/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="465">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -190,22 +194,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts">
+        <entry file="file://$PROJECT_DIR$/src/app/serve/material-alert-service/msg-alert.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#71#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-120">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts">
+        <entry file="file://$PROJECT_DIR$/src/app/component/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="48" selection-start-column="48" selection-end-column="48" />
+            <state relative-caret-position="210">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,6 +235,7 @@
       <find>login</find>
       <find>MdSnackBar</find>
       <find>Page</find>
+      <find>globalData</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,19 +266,19 @@
         <option value="$PROJECT_DIR$/src/app/component/err-page/err-page.component.html" />
         <option value="$PROJECT_DIR$/src/app/component/err-page/err-page.component.ts" />
         <option value="$PROJECT_DIR$/src/app/component/login/login.component.html" />
-        <option value="$PROJECT_DIR$/src/app/serve/global-data.service.ts" />
         <option value="$PROJECT_DIR$/src/app/component/home/home.component.html" />
-        <option value="$PROJECT_DIR$/src/app/component/login/login.component.ts" />
         <option value="$PROJECT_DIR$/src/app/serve/login.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/component/home/home.component.ts" />
         <option value="$PROJECT_DIR$/src/app/interface/interface.ts" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.html" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.html" />
-        <option value="$PROJECT_DIR$/src/app/serve/home.service.ts" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/serve/home.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/component/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/component/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/serve/global-data.service.ts" />
       </list>
     </option>
   </component>
@@ -371,6 +376,21 @@
               <item name="wx-forum-bc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-forum-bc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-forum-bc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="globalData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-forum-bc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-forum-bc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -402,10 +422,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/tslint" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="E:\all-project\wx-all-project\wx-forum-bc\node_modules\tslint" />
+    <property name="node.js.selected.package.tslint" value="F:\mineProject\wx-all-project\wx-forum-bc\node_modules\tslint" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -414,11 +434,14 @@
     <property name="ts.external.directory.path" value="F:\mineProject\wx-all-project\wx-forum-bc\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\mineProject\wx-forum-bc\src\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\mineProject\wx-forum-bc\src\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mineProject\wx-all-project\wx-forum-bc\src\app\serve\material-alert-service" />
+      <recent name="F:\mineProject\wx-all-project\wx-forum-bc\src\app\serve\login-service" />
+      <recent name="F:\mineProject\wx-all-project\wx-forum-bc\src\app\serve\home-service" />
+      <recent name="F:\mineProject\wx-forum-bc\src\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,12 +519,12 @@
       <workItem from="1537517639184" duration="2116000" />
       <workItem from="1538445321307" duration="10334000" />
       <workItem from="1538550006376" duration="10460000" />
-      <workItem from="1539051815129" duration="11602000" />
+      <workItem from="1539051815129" duration="12905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97495000" />
+    <option name="totallyTimeSpent" value="98798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -522,7 +545,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.22660099" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.12989324" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.12151067" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.22003284" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -576,9 +599,6 @@
           <caret line="349" column="17" selection-start-line="349" selection-start-column="17" selection-end-line="349" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tslint.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/test.html" />
     <entry file="file://$PROJECT_DIR$/src/app/app.component.less">
@@ -705,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/serve/msg-alert.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/src/router.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -750,30 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/globalData/globalData.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/serve/global-data.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/component/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -792,7 +781,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/serve/login.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/serve/login-service/login.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
@@ -840,6 +829,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -847,43 +859,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/serve/home-service/home.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/serve/home.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state relative-caret-position="-25">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/serve/material-alert-service/msg-alert.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="-120">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/globalData/globalData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
-            <element signature="e#0#71#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/serve/global-data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>

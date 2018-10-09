@@ -1,6 +1,6 @@
 import {Component, OnInit, ElementRef, Renderer2} from '@angular/core';
 import {Router} from '@angular/router';
-import {HomeService} from '../../../serve/home.service';
+import {HomeService} from '../../../serve/home-service/home.service';
 
 @Component({
   selector: 'app-home-aside',
@@ -47,7 +47,7 @@ export class HomeAsideComponent implements OnInit {
     if (type === 'all') {
       this.homeService.getAll();
       this.homeService.currentPageName.emit('所有笔记');
-    }else if (type === 'mine') {
+    } else if (type === 'mine') {
       this.homeService.getMine();
       this.homeService.currentPageName.emit(('我的笔记'));
     }

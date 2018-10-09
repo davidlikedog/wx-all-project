@@ -1,14 +1,12 @@
-import {Injectable, EventEmitter} from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GlobalDataService {
-  User: string;
-  change: EventEmitter<number>;
+  private User: string;
 
   constructor() {
-    this.change = new EventEmitter();
   }
 
   public setUser(user) {

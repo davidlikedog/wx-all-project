@@ -1,10 +1,10 @@
 import {Component, OnInit} from '@angular/core';
-import {LoginService} from '../../serve/login.service';
+import {LoginService} from '../../serve/login-service/login.service';
 import {Md5} from 'ts-md5';
 import {Router} from '@angular/router';
 import {MatSnackBar} from '@angular/material';
-import {MsgAlertService} from '../../serve/msg-alert.service';
-import {GlobalDataService} from '../../serve/global-data.service';
+import {MsgAlertService} from '../../serve/material-alert-service/msg-alert.service';
+import {GlobalDataService} from '../../serve/global-data-service/global-data.service';
 
 @Component({
   selector: 'app-login',
@@ -30,9 +30,6 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit() {
-    setInterval(() => {
-      this.globalData.change.emit(this.i++);
-    }, 1000);
   }
 
   verifyAccount(sth) {

@@ -1,8 +1,7 @@
 import {Injectable, EventEmitter} from '@angular/core';
-import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
-import {Observable} from 'rxjs';
-import {GlobalData} from '../globalData/globalData';
-import {AllData} from '../interface/interface';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {GlobalData} from '../../globalData/globalData';
+import {AllData} from '../../interface/interface';
 
 @Injectable({
   providedIn: 'root'

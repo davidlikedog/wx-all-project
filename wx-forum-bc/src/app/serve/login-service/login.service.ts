@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
 import {from, Observable, of} from 'rxjs';
-import {GlobalData} from '../globalData/globalData';
-import {User} from '../interface/interface';
+import {GlobalData} from '../../globalData/globalData';
+import {User} from '../../interface/interface';
 import {catchError} from 'rxjs/operators';
 
 @Injectable({
