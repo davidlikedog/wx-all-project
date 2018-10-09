@@ -11,8 +11,6 @@ const routes: Routes = [
   {
     path: 'home', component: HomeComponent, children: [
       {path: '', component: HomeBodyArticleComponent},
-      {path: 'allArticle/:type', component: HomeBodyArticleComponent},
-      {path: 'allArticleAll/:type', component: HomeBodyArticleComponent},
     ]
   },
   {path: 'login', component: LoginComponent},
