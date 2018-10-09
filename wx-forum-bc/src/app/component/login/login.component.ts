@@ -17,7 +17,6 @@ export class LoginComponent implements OnInit {
   accountValue: string;
   passwordValue: string;
   disabled: boolean;
-  i = 0;
 
   constructor(
     private loginService: LoginService,

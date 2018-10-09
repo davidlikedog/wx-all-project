@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39f4b9d1-530e-4d85-ada2-d2dec715377e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../wx-forum-bc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-bc/src/app/component/login/login.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -285,7 +285,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17708333" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.25" />
