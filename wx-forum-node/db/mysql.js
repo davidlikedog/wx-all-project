@@ -39,6 +39,7 @@ class Db {
                         } else {
                             resolve(rows);
                         }
+                        connection.release();
                     })
                 }
             })

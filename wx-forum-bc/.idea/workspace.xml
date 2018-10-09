@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8ea73270-57f2-4ea2-9ce1-0edefde3bdbc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/component/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/serve/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/component/home/homeGlobolData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/serve/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/serve/home.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-forum-node/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-node/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-forum-node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-node/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-forum-node/db/dbConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-node/db/dbConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-forum-node/route/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-node/route/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-forum-node/db/mysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-forum-node/db/mysql.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -138,27 +138,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="90" />
-          <entry key="ts" value="1284" />
+          <entry key="ts" value="1441" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="90" />
-          <entry key="TypeScript" value="1284" />
+          <entry key="TypeScript" value="1441" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
+          <entry key="html" value="6" />
           <entry key="jpg" value="1" />
-          <entry key="ts" value="9" />
+          <entry key="ts" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="6" />
           <entry key="Image" value="1" />
-          <entry key="TypeScript" value="9" />
+          <entry key="TypeScript" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -166,22 +166,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/component/home/home.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/serve/home.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -189,11 +177,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="780">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
               </folding>
@@ -211,13 +202,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts">
+        <entry file="file://$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="48" selection-start-column="48" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -242,6 +230,7 @@
       <find>lessContent</find>
       <find>login</find>
       <find>MdSnackBar</find>
+      <find>Page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,8 +244,6 @@
         <option value="$PROJECT_DIR$/src/app/component/home/home.component.less" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.less" />
         <option value="$PROJECT_DIR$/src/app/component/home/homeGlobolData.ts" />
-        <option value="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/app.component.less" />
         <option value="$USER_HOME$/Desktop/test.html" />
@@ -282,9 +269,11 @@
         <option value="$PROJECT_DIR$/src/app/interface/interface.ts" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.html" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.html" />
+        <option value="$PROJECT_DIR$/src/app/serve/home.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html" />
+        <option value="$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts" />
         <option value="$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/serve/home.service.ts" />
       </list>
     </option>
   </component>
@@ -304,7 +293,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="12" />
     <option name="y" value="-15" />
     <option name="width" value="768" />
@@ -367,6 +356,15 @@
               <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="home-body-article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx-forum-bc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx-forum-bc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="home-bread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wx-forum-bc" type="b2602c69:ProjectViewProjectNode" />
@@ -498,18 +496,18 @@
       <workItem from="1537517639184" duration="2116000" />
       <workItem from="1538445321307" duration="10334000" />
       <workItem from="1538550006376" duration="10460000" />
-      <workItem from="1539051815129" duration="10340000" />
+      <workItem from="1539051815129" duration="11602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96233000" />
+    <option name="totallyTimeSpent" value="97495000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -524,7 +522,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.22660099" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.12989324" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.27093595" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.12151067" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,23 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,34 +805,10 @@
     <entry file="file://$PROJECT_DIR$/src/assets/img/a.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/homeGlobolData.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/interface/interface.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -862,22 +819,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/homeGlobolData.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-bread/home-bread.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
-            <element signature="e#0#71#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -885,9 +860,29 @@
     <entry file="file://$PROJECT_DIR$/src/app/serve/home.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-aside/home-aside.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/component/home/home-body-article/home-body-article.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,11 +9,13 @@ import {AllData} from '../interface/interface';
 })
 export class HomeService {
   someArticle: EventEmitter<Array<AllData>>;
+  currentPageName: EventEmitter<string>;
 
   constructor(
     private http: HttpClient
   ) {
     this.someArticle = new EventEmitter<Array<AllData>>();
+    this.currentPageName = new EventEmitter<string>();
   }
 
   getAll() {

@@ -1,6 +1,5 @@
 import {Component, OnInit, ElementRef, Renderer2} from '@angular/core';
 import {Router} from '@angular/router';
-import {Page} from '../homeGlobolData';
 import {HomeService} from '../../../serve/home.service';
 
 @Component({
@@ -47,14 +46,10 @@ export class HomeAsideComponent implements OnInit {
     console.log(type);
     if (type === 'all') {
       this.homeService.getAll();
+      this.homeService.currentPageName.emit('所有笔记');
     }else if (type === 'mine') {
       this.homeService.getMine();
+      this.homeService.currentPageName.emit(('我的笔记'));
     }
-    // const text: string = event.target.innerHTML;
-    // if (text.indexOf('二哈') === -1) {
-    //   this.router.navigateByUrl('/home/allArticleAll/all');
-    // } else {
-    //   this.router.navigateByUrl('/home/allArticle/today');
-    // }
   }
 }

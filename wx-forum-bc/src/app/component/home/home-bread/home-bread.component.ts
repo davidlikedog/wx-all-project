@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Page, PageModel} from '../homeGlobolData';
+import {HomeService} from '../../../serve/home.service';
 
 @Component({
   selector: 'app-home-bread',
@@ -7,12 +7,17 @@ import {Page, PageModel} from '../homeGlobolData';
   styleUrls: ['./home-bread.component.less']
 })
 export class HomeBreadComponent implements OnInit {
-  page: PageModel = Page;
+  page: string;
 
-  constructor() {
+  constructor(
+    private homeService: HomeService
+  ) {
   }
 
   ngOnInit() {
+    this.homeService.currentPageName.subscribe(value => {
+      this.page = value;
+    });
   }
 
 }
