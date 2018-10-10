@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {HomeService} from '../../../serve/home-service/home.service';
 import {AllData} from '../../../interface/interface';
+import {PageEvent} from '@angular/material';
 
 @Component({
   selector: 'app-home-body-article',
@@ -27,6 +28,10 @@ export class HomeBodyArticleComponent implements OnInit {
       console.log(someData);
       this.data = someData;
     });
+  }
+
+  pageChangeEvent(event) {
+    console.log(event);
   }
 
 }
