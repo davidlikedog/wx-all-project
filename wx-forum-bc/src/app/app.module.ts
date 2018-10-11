@@ -13,6 +13,7 @@ import {HomeBodyArticleComponent} from './component/home/home-body-article/home-
 import {HomeBreadComponent} from './component/home/home-bread/home-bread.component';
 import {LoginComponent} from './component/login/login.component';
 import {ErrPageComponent} from './component/err-page/err-page.component';
+import {HomeBodyAddComponent} from './component/home/home-body-add/home-body-add.component';
 
 import {MatPaginatorIntl} from '@angular/material';
 
@@ -23,7 +24,7 @@ function myPaginator() {
   p.previousPageLabel = '上一页';
   p.firstPageLabel = '第一页';
   p.lastPageLabel = '最后一页';
-  p.getRangeLabel = (page, pageSize, length)=> {
+  p.getRangeLabel = (page, pageSize, length) => {
     if (length === 0 || pageSize === 0) {
       return `0 od ${length}`;
     }
@@ -32,7 +33,6 @@ function myPaginator() {
     const endIndex = startIndex < length ?
       Math.min(startIndex + pageSize, length) :
       startIndex + pageSize;
-    // return '第' + (startIndex + 1) + ' - ' + endIndex + ' 条，总共：' + length + '条';
     return `第 ${startIndex + 1} - ${endIndex} 条，一共：${length} 条`;
   };
   return p;
@@ -44,6 +44,7 @@ function myPaginator() {
     HomeComponent,
     HomeAsideComponent,
     HomeBodyArticleComponent,
+    HomeBodyAddComponent,
     HomeBreadComponent,
     LoginComponent,
     ErrPageComponent,

@@ -6,6 +6,11 @@ export interface User {
 }
 
 export interface AllData {
+  title: string;
   cover: string;
   content: string;
+  description: string;
+  whoSend?: number;
+  watch?: number;
+  comments?: number;
 }

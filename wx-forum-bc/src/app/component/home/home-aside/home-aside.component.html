@@ -13,18 +13,25 @@
         <span class="asideOneName">所有 or 我的</span>
       </div>
       <ul class="asideLiDetail">
-        <li class="asideLiOneDetail" (click)="go('all')">
+        <li class="asideLiOneDetail" (click)="go($event,'all')">
           <span class="moreLeft">
             所有
           </span>
         </li>
-        <li class="asideLiOneDetail" (click)="go('mine')">
+        <li class="asideLiOneDetail" (click)="go($event,'mine')">
           <span class="moreLeft">
             <!--<a [routerLink]="['./allArticleAll','all']">所有的文章</a>-->
             我的
           </span>
         </li>
       </ul>
+    </li>
+
+    <li class="asideLi">
+      <div class="asideLiHead" (click)="goToAdd()">
+        <mat-icon class="asideLiIcon">send</mat-icon>
+        <span class="asideOneName">添加</span>
+      </div>
     </li>
 
   </ul>

@@ -57,7 +57,7 @@ module.exports = function r() {
         var sqlDb = db.getInstance();
         var result = null;
         try {
-            result = await sqlDb.query(`select all_forum.cover,all_forum.content from all_forum join bc_user on all_forum.who_send=bc_user.id where bc_user.account='${who}'`);
+            result = await sqlDb.query(`select all_forum.* from all_forum join bc_user on all_forum.who_send=bc_user.id where bc_user.account='${who}'`);
         } catch (e) {
             console.log(e);
         }
